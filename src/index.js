@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const path = require('path')
 
-const { username, password } = require('./config/mongo.json') // Não commitado
+const { username, password } = require('./config/mongo.json') // Não comitado
 
 const app = express()
 
