@@ -4,12 +4,14 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const path = require('path')
 
+const { username, password } = require('./config/mongo.json') // Não commitado
+
 const app = express()
 
 const server = require('http').Server(app)
 const io = require('socket.io')(server)
 
-mongoose.connect('mongodb+srv://develop:develop-183492761@cluster0-uvul0.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect(`mongodb+srv://${username}:${password}@cluster0-uvul0.mongodb.net/test?retryWrites=true&w=majority`, {
   useNewUrlParser: true
 })
 
