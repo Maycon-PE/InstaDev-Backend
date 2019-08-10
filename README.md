@@ -1,16 +1,16 @@
 # Instagram-Backend
-Done with the help by Diego Fernandes of Rocketseat. Omnitack 7.0 Project.
+Feito com a ajuda de Diego Fernandes da Rocketseat. *Semana OmniStack 7.0*.
 
-## Frontend project
-- [Repository](https://github.com/Maycon-PE/Instagram-Frontend)
+## Projeto client-side
+- [Repositório](https://github.com/Maycon-PE/Instagram-Frontend).
 
-## Constructed with
+## Construido com ...
 - `NodeJs`
-  - `cors`, releasing external access;
-  - `express`, used to routes;
-  - `mongoose`, to connect to MongoDB (MongoAtlas service);
-  - `multer`, images upload;
-  - `sharp`, resized images;
-  - `socket.io`, realtime;
-  - `nodemon`, auto reload.
+  - `cors`, aceitando acesso externo à aplicação;
+  - `express`, administrando as rotas;
+  - `mongoose`, conectando ao mongoDB (serviço MongoAtlas);
+  - `multer`, *upload* de imagens;
+  - `sharp`, redimencionamento de imagens;
+  - `socket.io`, *realtime*;
+  - `nodemon`, *realod* automático.
   
