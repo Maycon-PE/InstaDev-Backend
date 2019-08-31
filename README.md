@@ -2,7 +2,11 @@
 Feito com a ajuda de Diego Fernandes da Rocketseat. *Semana OmniStack 7.0*.
 
 ## Projeto client-side
-- [Repositório](https://github.com/Maycon-PE/Instagram-Frontend).
+- [Repositório](https://github.com/Maycon-PE/Instagram-Frontend "Instagram-Frontend").
+
+## Características
+- MondoDB
+	- Utiliza-se o serviço **Mongo Atlas** - [Site](https://cloud.mongodb.com "Visitar")
 
 ## Construido com ...
 - `NodeJs`
