@@ -2,8 +2,8 @@
 node_modules
 
 # images
-src/uploads/resized/*.jpg
-src/uploads/resized/*.png
+uploads/resized/*.jpg
+uploads/resized/*.png
 
 # credentials
 .env
