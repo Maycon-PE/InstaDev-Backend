@@ -11,7 +11,7 @@ module.exports = {
     return res.send(postsReverse)
   },
   async store(req, res) {
-    const { author, place, description, hashtags } = req.body
+    const { author, place, description, hashtags, socket } = req.body
     const { filename: image } = req.file
 
     const [ name ] = image.split('.')
@@ -33,6 +33,8 @@ module.exports = {
       hashtags,
       image: fileName
     })
+
+
     req.io.emit('posted', post)
 
     return res.json(post)

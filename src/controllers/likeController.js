@@ -9,7 +9,7 @@ module.exports = {
 
     const postsReverse = [...posts].reverse()
 
-    req.io.emit('liked', post)
+    req.io.emit('liked', postsReverse)
     return res.send(postsReverse)
   },
   async deslike(req, res) {
@@ -19,7 +19,7 @@ module.exports = {
     const posts = await Post.find()
     postsReverse = [...posts].reverse()
 
-    req.io.emit('desliked', post)
+    req.io.emit('desliked', postsReverse)
     return res.send(postsReverse)
   }
 }

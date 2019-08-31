@@ -19,13 +19,12 @@ app.use((req, res, next) => {
   req.io = io
 
   next()
-})
+})	
 
 app.use(cors())
 app.use('/files', express.static(path.resolve(__dirname, '..', 'uploads', 'resized')))
 app.use(require('./routers/get'))
 app.use(require('./routers/post'))
 app.use(require('./routers/delete'))
-
 
 server.listen(port, err => console.log(err? 'Error': `Rodando na porta:${port}`))
