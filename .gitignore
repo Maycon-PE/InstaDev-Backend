@@ -1,5 +1,12 @@
-#dependencies
+# dependencies
 node_modules
 
-#credentials
-src/config/mongo.json
+# images
+src/uploads/resized/*.jpg
+src/uploads/resized/*.png
+
+# credentials
+.env
+
+# logs
+*.log

@@ -1,17 +1,17 @@
+require('dotenv').config()
 const express = require('express')
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const path = require('path')
 
-const { username, password } = require('./config/mongo.json') // Não comitado
-
 const app = express()
+const port = process.env.PORT || 8080
 
 const server = require('http').Server(app)
 const io = require('socket.io')(server)
 
-mongoose.connect(`mongodb+srv://${username}:${password}@cluster0-uvul0.mongodb.net/test?retryWrites=true&w=majority`, {
+mongoose.connect(process.env.URL_CONNECTION, {
   useNewUrlParser: true
 })
 
@@ -28,4 +28,4 @@ app.use(require('./routers/post'))
 app.use(require('./routers/delete'))
 
 
-server.listen(8080, err => console.log(err? 'Error': 'Rodando'))
+server.listen(port, err => console.log(err? 'Error': `Rodando na porta:${port}`))
