@@ -12,5 +12,6 @@ Feito com a ajuda de Diego Fernandes da Rocketseat. *Semana OmniStack 7.0*.
   - `multer`, *upload* de imagens;
   - `sharp`, redimencionamento de imagens;
   - `socket.io`, *realtime*;
-  - `nodemon`, *realod* automático.
+  - `nodemon`, *realod* automático;
+  - `dotenv`, lendo as váriaveis de ambiente.
   
