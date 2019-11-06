@@ -1,4 +1,4 @@
-# InstDev-Backend
+# InstaDev-Backend
 Feito com a ajuda de Diego Fernandes da Rocketseat. *Semana OmniStack 7.0*.
 
 ## Outros projetos
