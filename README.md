@@ -1,8 +1,10 @@
 # Instagram-Backend
 Feito com a ajuda de Diego Fernandes da Rocketseat. *Semana OmniStack 7.0*.
 
-## Projeto client-side
-- [Repositório](https://github.com/Maycon-PE/Instagram-Frontend "Instagram-Frontend").
+## Outros projetos
+- [Web](https://github.com/Maycon-PE/InstaDev-Frontend "InstaDev-Frontend");
+- [Mobile](https://github.com/Maycon-PE/InstaDev-Mobile "InstaDev-Mobile").
+
 
 ## Características
 - MondoDB
